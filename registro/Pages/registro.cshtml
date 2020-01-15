@@ -24,7 +24,7 @@
 				<div class="row form-group">
 					<label for="nombre" class="col-form-label col-md-4">Nombre:</label>
 					<div class="col-md-8">
-						<input type="text" name="nombre" value="" id="nombre" class="form-control" />
+						<input type="text" placeholder="Nombres" pattern="[A-Za-z]{2,}" title="Tu nombre Correcto" tabindex="1" required="required" class="form-control">
 					</div>
 				</div>
 			</form>
@@ -35,7 +35,7 @@
 				<div class="row form-group">
 					<label for="correo" class="col-form-label col-md-4">Correo:</label>
 					<div class="col-md-8">
-						<input type="text" name="correo" value="" id="correo" class="form-control" />
+					<input type="text" placeholder="Email" name="correo" value="" id="correo" class="form-control" required/>
 					</div>
 				</div>
 			</form>
@@ -62,7 +62,7 @@
 				<div class="row form-group">
 					<label for="usuario" class="col-form-label col-md-4">Usuario:</label>
 					<div class="col-md-8">
-						<input type="text" name="usuario" value="" id="usuario" class="form-control" />
+						<input type="text" placeholder="Usuario" name="usuario" value="" id="usuario" class="form-control" required/>
 					</div>
 				</div>
 			</form>
@@ -73,7 +73,7 @@
 				<div class="row form-group">
 					<label for="contraseña" class="col-form-label col-md-4">Contraseña:</label>
 					<div class="col-md-8">
-						<input type="password" name="contraseña" value="" id="contraseña" class="form-control" />
+						<input type="password" placeholder="" name="contraseña" value="" id="contraseña" class="form-control" required/>
 					</div>
 				</div>
 			</form>
@@ -84,7 +84,7 @@
 				<div class="row form-group">
 					<label for="confcontraseña" class="col-form-label col-md-4">Confirmar Contraseña:</label>
 					<div class="col-md-8">
-						<input type="password" name="confcontraseña" value="" id="confcontraseña" class="form-control" />
+						<input type="password" placeholder="" name="confcontraseña" value="" id="confcontraseña" class="form-control" required/>
 					</div>
 				</div>
 			</form>
@@ -105,9 +105,9 @@
 			<div class="panel">
 				<div class="text-center">
 					<div class="form-group">
-						<input type="submit" value="Nuevo" />
-						<input type="submit" value="Guardar" />
-						<input type="submit" value="Eliminar" />
+						<button type="button" class="btn btn-outline-primary">Nuevo</button>
+						<button type="button" class="btn btn-outline-success">Guardar</button>
+						<button type="button" class="btn btn-outline-warning">Eliminar</button>
 					</div>
 				</div>
 			</div>
