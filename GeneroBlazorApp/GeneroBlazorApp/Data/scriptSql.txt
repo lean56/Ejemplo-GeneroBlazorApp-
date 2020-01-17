@@ -1,0 +1,4 @@
+﻿create table Generos(
+GeneroId int Primary key identity,
+Nombre varchar(100)
+)
